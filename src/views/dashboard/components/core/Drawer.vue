@@ -71,8 +71,6 @@
         />
       </template>
 
-      <!-- Style cascading bug  -->
-      <!-- https://github.com/vuetifyjs/vuetify/pull/8574 -->
       <div />
     </v-list>
 
@@ -138,6 +136,11 @@
         },
         {
           title: 'notifications',
+          icon: 'mdi-bell',
+          to: '/components/notifications',
+        },
+        {
+          title: 'bandeja peliculas',
           icon: 'mdi-bell',
           to: '/components/notifications',
         },
